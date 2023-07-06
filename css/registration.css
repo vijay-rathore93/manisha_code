@@ -63,8 +63,12 @@ button{
     margin: 20px;
 }
 .text input{
-    display: flex;
-    flex-direction: row;
-    word-spacing: 10px;
     padding: 10px;
+ 
+   
+}
+textarea{
+width: 310px;
+height: 35px;
+padding: 10px;
 }

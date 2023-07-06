@@ -1,71 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forget Password</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/registration.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/registration.css" />
     <script src="./script/script.js"></script>
-</head>
+  </head>
 
-<body>
-    <div class="center">
-        <h2>Registration</h2>
-        <form action="">
+  <body>
+    <div class="tab-content">
+      <div id="registrationId" class="tab-pane fade out active">
+        <div class="center">
+          <h2>Registration</h2>
+          <form action="">
             <div class="text_info">
-                <div class="text">
-                    <label>First Name</label>
-                    <input type="text">
-                </div>
-                <div  class="text">
-                    <label>Last Name</label>
-                    <input type="text">
-                </div>
-
-
-
+              <div class="text">
+                <label>First Name</label>
+                <input type="text" />
+              </div>
+              <div class="text">
+                <label>Last Name</label>
+                <input type="text" />
+              </div>
             </div>
 
             <div class="text_info">
-                <div  class="text"> 
-                    <label>Email</label>
-                    <input type="email">
-                </div>
-               
-                <div  class="text"> 
-                     <label>Contacte No</label>
-                    <input type="number">
-                </div>
-              
+              <div class="text">
+                <label>Email</label>
+                <input type="email" />
+              </div>
+
+              <div class="text">
+                <label>Contacte No</label>
+                <input type="number" />
+              </div>
             </div>
             <div class="text">
-              
-                     <label>Gender </label>
-                    <input type="radio" name="gender">Male
-                    <input type="radio" name="gender">Female
-                    <input type="radio" name="gender">Other
-
-               
-            </div >
+              <label>Gender: </label>
+              <input type="radio" name="gender" />Male
+              <input type="radio" name="gender" />Female
+              <input type="radio" name="gender" />Other
+            </div>
             <div class="text_info">
-               
-                <label>address </label>
-                <textarea rows="5" cols="33"></textarea>
-                
-    
-     
+              <label>address: </label>
+              <textarea rows="5" cols="5"></textarea>
             </div>
 
             <div class="button">
-                <button>Save</button>
+              <button>Save</button>
             </div>
-
-
-        </form>
+          </form>
+        </div>
+      </div>
     </div>
-
-</body>
-
+  </body>
 </html>
